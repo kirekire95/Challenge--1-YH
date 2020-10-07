@@ -46,6 +46,19 @@ main {
     "e f g";
 }
 
+main > section {
+  max-width: 786px;
+  margin: auto;
+  grid-column: 1/-1;
+  grid-row: 1/-1;
+  text-align: center;
+}
+
+section > img {
+  width: 300px;
+  border-radius: 20px;
+}
+
 footer {
   display: flex;
   justify-content: center;
